@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use("/public", express.static("public"));
 
-mongoose.connect("mongodb+srv://Darshil:Darshil99@cluster0.7myv5.mongodb.net/todolistDB?retryWrites=true&w=majority", {
+mongoose.connect("<connection string>", {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
